@@ -1,0 +1,32 @@
+.font
+{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#name 
+{
+	background-color: #4aaaa5
+
+}
+
+#content
+{
+	width: 650px;
+
+}
+
+#completeArea
+{
+	width: 960px;
+}
+
+#footer
+{
+	clear: both;
+}
+
+p
+{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
