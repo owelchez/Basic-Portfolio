@@ -1,12 +1,16 @@
-.font
+.box-1
 {
+	background-color: #4aaaa5;
+	color: white;
+	padding-top: 15px;
+	width: 250px;
+	height: 50px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#name 
+#links
 {
-	background-color: #4aaaa5
-
+	float: left;
 }
 
 #content
@@ -17,15 +21,29 @@
 
 #completeArea
 {
+	background-color: lightGray;
 	width: 960px;
+}
+
+#topFooter
+{
+	height: 5px;
+	width: 650px;
+	background-color: #4aaaa5
 }
 
 #footer
 {
-	clear: both;
+	color: #777777;
+	text-align: center;
+	padding: 5px;
+	background-color: #666666;
+	height: 65px;
+    width: 650px;
 }
 
-p
+
+section
 {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
