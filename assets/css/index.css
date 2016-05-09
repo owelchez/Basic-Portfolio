@@ -8,10 +8,22 @@
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+body
+{
+	overflow: auto;
+}
+
 #links
 {
-	float: left;
+	float: right;
 }
+
+#margen
+{
+	width: 650px;
+
+}
+
 
 #content
 {
