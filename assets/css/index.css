@@ -1,7 +1,12 @@
 html
 {
 	width: 350px;
+	margin-left: 100px;
+}
 
+.name
+{
+	background-color: #4aaaa5
 }
 
 .box-1
@@ -17,6 +22,16 @@ html
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+#divider
+{
+	height: 1px;
+	width: 750px;
+	margin: 5px 5px;
+	overflow: hidden;
+	background-color: #ddd;
+	border-right: 2px solid #ddd;
+}
+
 #profilePic
 {
 	float: left;
@@ -26,7 +41,8 @@ html
 
 .links
 {
-	float: right;
+	margin-left: 200px;
+	margin-right: 5px;
 	background: blue;
 }
 
