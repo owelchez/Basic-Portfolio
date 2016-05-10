@@ -1,12 +1,50 @@
 html
 {
-	width: 350px;
+	width: 750px;
 	margin-left: 100px;
+}
+
+ul
+{
+	margin-top: 35px;
+	float: right;
+   list-style-type: none;
+   color: #DDD;
+}
+
+h1
+{
+	margin-top: 0px;
+	display: inline-block;
+	border: none;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.box
+{
+	height: 51px;
+	margin-top: 0px;
+	background-color: white;
+	border-bottom-color: #ddd;
+}
+
+.header {
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
 }
 
 .name
 {
-	background-color: #4aaaa5
+	border-width: inherit;
+	background-color: #4aaaa5;
 }
 
 .box-1
@@ -22,33 +60,11 @@ html
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#divider
-{
-	height: 1px;
-	width: 750px;
-	margin: 5px 5px;
-	overflow: hidden;
-	background-color: #ddd;
-	border-right: 2px solid #ddd;
-}
-
 #profilePic
 {
 	float: left;
 	margin-left: 10px;
 	margin-right: 10px;
-}
-
-.links
-{
-	margin-left: 200px;
-	margin-right: 5px;
-	background: blue;
-}
-
-body
-{
-	overflow: auto;
 }
 
 #margen
@@ -73,8 +89,9 @@ body
 	background-color: #4aaaa5
 }
 
-#footer
+.footer
 {
+	position: fixed;
 	color: #777777;
 	text-align: center;
 	padding: 5px;
