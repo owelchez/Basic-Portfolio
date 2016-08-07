@@ -7,6 +7,33 @@
 	border-bottom: solid #cccccc;
 }
 
+#container 
+{
+    position: relative;    
+}
+
+.container 
+{
+    position: inherit;
+
+}
+
+#pictureTag
+{
+	text-align: center;
+   position: absolute;
+   top: 102px;
+   left: 10px; 
+   padding: 5px;
+   background-color: #4aaaa5;
+   width: 135px;
+}
+
+.hobbies
+{
+	position: inherit;
+}
+
 .box1
 {
 	width: 100%;
@@ -16,13 +43,15 @@
 
 .boxPortfolio
 {
-	position: inherit;
-	width: 300px;
-	height: 600px;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 40px;
+	width: 350px;
+	height: 580px;
 	background-color: white;
 }
 
-.nameField
+#nameField
 {
 	margin-left: 5px;
     width: 450px;
@@ -31,6 +60,7 @@
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
+    height: 20px;
 }
 
 .messageBox
@@ -106,16 +136,27 @@ hr
 	width: 180px;
 }
 
+.fotoPort2
+{
+	height: 140px;
+	width: 140px;
+	border: 2px solid black;
+}
+
 .fotoPort1
 {
+	margin: 10px;
 	width: 140px;
 	height: 100px;
+	border: 2px solid black;
 }
 
 .fotoPort
 {
+	margin: 10px;
 	width: 140px;
 	height: 140px;
+	border: 2px solid black;
 }
 
 .lista
@@ -179,6 +220,11 @@ hr
 	font-size: 30px;
 }
 
+#wrapper
+{
+	margin-left: 15px;
+}
+
 .aboutBox
 {
 
@@ -205,12 +251,14 @@ hr
 	margin-right: 50px;
 }
 
-.connect1
+#connect1
 {
 	width: 250px;
 	height: 175px;
 	background: white;
 	float: right;
+	margin-top: 40px;
+	margin-right: 60px;
 }
 
 .fotos
@@ -247,9 +295,11 @@ p
 	margin-top: 25px;
 }
 
-.footer
+#footer
 {
 	clear: both;
+	position:fixed;
+    bottom:0;
 	color: #777777;
 	text-align: center;
 	background-color: #666666;
@@ -258,16 +308,8 @@ p
     border-top: solid #4aaaa5;
 }
 
-.footer1
-{
-	color: #777777;
-	text-align: center;
-	background-color: #666666;
-	height: 65px;
-    width: 100%;
-    border-top: solid #4aaaa5;
-    clear: both;
-}
+
+
 
 
 
